@@ -1,0 +1,34 @@
+.red {
+    background-color: red;
+    /*grid-column: 1/3;*/
+    grid-area: r;
+}
+.blue {
+    background-color: blue;
+    /*grid-column: 3/5;*/
+    grid-area: b;
+}
+.green {
+    background-color: green;
+    /*grid-column: 1;*/
+    grid-area: g;
+}
+.violet {
+    background-color: yellow;
+   /* grid-column: 1/5;*/
+   grid-area: y;
+}
+.yellow {
+    background-color: violet;
+    /*grid-column: 2/5;*/
+    grid-area: v;
+}
+.container {
+    display: grid;
+    grid-template: repeat(5,150px) / repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    'r r b b'
+    'g v v v'
+    'y y y y ';
+}

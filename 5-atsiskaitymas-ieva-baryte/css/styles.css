@@ -1,0 +1,295 @@
+* {
+    font-family: 'Inter';
+    color: #32292F;
+}
+
+/* NAV */
+nav.navbar {
+    padding: 20px 0;
+}
+
+nav .navbar-brand {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #32292F;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #32292F;
+}
+
+nav .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+nav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+nav .navbar-nav .nav-item .active,
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #32292F;
+}
+
+/* HEADER */
+header .header-first-block {
+    width: 822px;
+    height: 768px;
+    top: 68px;
+    left: 822px;
+    background-color: #F6F4F5;
+}
+
+header .header-first-block h1 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    color: #32292F;
+    width: 432px;
+    height: 110px;
+    top: 266px;
+    left: 80px;
+    position: relative;
+}
+
+header .header-first-block p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #32292F;
+    width: 432px;
+    height: 68px;
+    top: 270px;
+    left: 80px;
+    position: relative;
+}
+
+header .header-first-block button {
+    width: 116px;
+    height: 48px;
+    top: 290px;
+    left: 80px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 0px;
+    background: #32292F;
+    border: 0px;
+    position: relative;
+}
+
+header .header-first-block button:hover {
+    background-color: #F6F4F5;
+    color: #32292F;
+}
+
+header .header-image {
+    position: relative;
+    height: 536px;
+    width: 737px;
+    top: 168px;
+    left: 623px;
+}
+
+header .progres-line .bold-line {
+    width: 122px;
+    height: 2px;
+    top: 16px;
+    background-color: #32292F;
+    position: relative;
+    left: 936px;
+    top: 450px;
+}
+
+header .progres-line .normal-line {
+    width: 402px;
+    height: 1px;
+    top: 18px;
+    border: 1px 0px 0px 0px;
+    background-color: #32292F;
+    position: relative;
+    left: 936px;
+    top: 450px;
+}
+
+header .text-next-to-line p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #32292F;
+    position: relative;
+    top: 437px;
+    left: 1342px;
+}
+
+/* SECTION VIEW FIRST PRODUCT */
+
+section h1 {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48px;
+    width: 501px;
+    height: 48px;
+    top: 50px;
+    left: 438px;
+    color: #32292F;
+    position: relative;
+}
+
+section .view-products-first {
+    position: absolute;
+    width: 410px;
+    height: 168px;
+    top: 1152px;
+    left: 189px;
+    gap: 16px;
+}
+
+section .view-products-first h2,
+section .view-products-second h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #32292F;
+    width: 277px;
+    height: 50px;
+}
+
+section .view-products-first p,
+section .view-products-second p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #32292F;
+    height: 65px;
+}
+
+section .view-products-first button,
+section .view-products-second button {
+    width: 160px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border: 1px 1px 1px 1px;
+    border-color: #32292F;
+    color: #32292F;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+}
+
+section .view-products-first button:hover,
+section .view-products-second button:hover {
+    background-color: #32292F;
+}
+
+section .view-image-first img {
+    position: absolute;
+    width: 628px;
+    height: 424px;
+    top: 1024px;
+    left: 732px;
+}
+
+/* SECTION VIEW 2ND PRODUCT */
+section .view-image-second img {
+    position: relative;
+    width: 628px;
+    height: 424px;
+    top: 650px;
+    left: 80px;
+}
+
+section .view-products-second {
+    width: 408px;
+    height: 168px;
+    top: 370px;
+    left: 843px;
+    gap: 16px;
+    position: relative;
+}
+
+/* GALLERY */
+
+main {
+    top: 2100px;
+    position: absolute;
+}
+
+main h1 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    height: 70px;
+    padding-left: 80px;
+}
+
+main .gallery,
+main .gallery-two {
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+main .gallery-two {
+    padding-top: 40px;
+}
+
+main .first-col,
+main .second-col,
+main .third-col,
+main .fourth-col {
+    display: block;
+}
+
+main .first-col p,
+main .second-col p,
+main .third-col p,
+main .fourth-col p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    top: 2000px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+footer .col-2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+footer .col a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .col-2 p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+footer .col-12 p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 22px;
+}

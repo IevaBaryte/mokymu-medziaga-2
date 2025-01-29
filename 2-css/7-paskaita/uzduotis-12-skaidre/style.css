@@ -1,0 +1,11 @@
+#mark-zyma mark:hover{
+position: relative;
+bottom: 10px;
+}
+#mark-zyma a:hover {
+    position: relative;
+    left: 10px;
+}
+#mark-zyma a, #mark-zyma p {
+    font-size: 1.5em;
+}

@@ -1,0 +1,45 @@
+
+main {
+    background-color: #D4F1E6;
+max-width: 1200px;
+margin:0 auto;
+padding: 20px;
+    
+}
+.flex-container {
+    display: flex;
+}
+main h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+main .img-list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .img-list img {
+    margin: 0 15px;
+    height: 300px;
+    border-radius: 20px;
+}
+main .img-list .small {
+    width: 40%;
+}
+main .img-list .big {
+    width: 55%;
+}
+
+main .article {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 15px;
+}
+main .article .article-img {
+    width: 30%;
+}
+main .article .article-img img {
+    border-radius: 20px;
+    width: 100%;
+}

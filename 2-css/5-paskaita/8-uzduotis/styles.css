@@ -1,0 +1,24 @@
+.pirma-naujiena {
+    background-color: #ffffff;
+    width: 488px;
+    height: 214px;
+    padding: 50px 40px 30px 40px;
+    gap: 16px;
+    opacity: 0px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    box-shadow: 5 4 16 #331c00;
+}
+
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#58F6EC, #FBEDDD);
+
+}

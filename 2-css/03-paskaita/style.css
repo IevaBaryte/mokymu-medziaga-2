@@ -1,0 +1,14 @@
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #929292;
+    color:white;
+    text-align: center;
+    display: inline-flex;
+  }
+
+  .square spam {margin: auto;}
+  .img-placeholder {
+    background-color: grey;
+    padding: 50px;
+  }

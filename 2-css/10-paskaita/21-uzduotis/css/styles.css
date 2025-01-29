@@ -1,0 +1,69 @@
+#page-container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.flex-container {
+    display: flex;
+}
+header {
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+header nav {
+    width: 100%;
+    padding: 0 50px;
+}
+header ul li {
+    list-style: none;
+    width: 20%;
+}
+header ul {
+    padding: 20px 0;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: Montserrat;
+}
+.logo {
+    align-items: center;
+}
+main h1 {
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+letter-spacing: 0.08em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+main p {
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.ledai-1 {
+width: 246px;
+height: 24px;
+top: 208px;
+left: 23px;
+gap: 0px;
+opacity: 0px;
+
+}
+#kortele-1 {
+    
+}

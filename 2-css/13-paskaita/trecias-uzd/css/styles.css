@@ -1,0 +1,30 @@
+.header {
+    background-color: grey;
+    grid-area: h;
+}
+.sidebar {
+    background-color: rgb(85, 85, 85);
+        grid-area: s;
+}
+.content {
+    background-color: rgb(85, 85, 85);
+    grid-area: c;
+}
+
+.sidebar-2 {
+    background-color: rgb(198, 198, 198);
+    grid-area: s2;
+}
+.footer {
+    background-color: grey;
+    grid-area: f;
+}
+.container {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'h h h h h'
+    's c c c s2'
+    'f f f f f';
+}

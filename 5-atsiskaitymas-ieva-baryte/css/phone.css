@@ -1,0 +1,155 @@
+@media screen and (max-width:430px) {
+    header .header-first-block {
+        width: 430px;
+        position: relative;
+        left: 0px;
+        height: 600px;
+    }
+
+    header .header-first-block h1 {
+        font-size: 32px;
+        width: 80%;
+        left: 50px;
+    }
+
+    header .header-first-block p {
+        left: 50px;
+        width: 80%;
+    }
+
+    header .header-first-block button {
+        width: 90%;
+        left: 22px;
+        top: 320px;
+    }
+
+    header .header-image {
+        left: 0px;
+        top: -298px;
+        max-width: 410px;
+    }
+
+    header .progres-line .bold-line {
+        left: 20px;
+        top: -500px;
+        height: 1px;
+    }
+
+    header .progres-line .normal-line {
+        top: -500px;
+        left: 20px;
+        width: 350px;
+    }
+
+    header .progres-line .text-next-to-line p {
+        left: 389px;
+        top: -512px;
+    }
+
+    /* SECTION */
+
+    .products-first h1 {
+        left: 50px;
+        margin-top: 50px;
+        width: 80%;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .products-first .view-products-first {
+        position: relative;
+        top: 400px;
+        left: 20px;
+        text-align: center;
+    }
+
+    .products-first .view-products-first h2 {
+        text-align: center;
+        width: 420px;
+        font-size: 28px;
+    }
+
+    .products-first .view-products-first button,
+    .products-second .view-products-second button {
+        width: 90%;
+    }
+
+    .products-first .view-image-first img {
+        left: 22px;
+        width: 90%;
+        top: 810px;
+    }
+
+    section .view-products-second {
+        left: 20px;
+        text-align: center;
+        top: 300px;
+    }
+
+    section .view-image-second img {
+        width: 90%;
+        left: 22px;
+        top: 360px;
+    }
+
+    section .view-products-second h2 {
+        width: 420px;
+        font-size: 28px;
+        left: 22px;
+        text-align: center;
+    }
+
+    /* MAIN */
+
+    main {
+        position: relative;
+        top: 316px;
+        left: -44px;
+        width: 90%;
+    }
+
+    main .gallery {
+        display: block;
+        width: 420px;
+        margin-top: 50px;
+    }
+
+    main .first-col,
+    main .second-col,
+    main .third-col,
+    main .fourth-col {
+        padding-bottom: 25px;
+    }
+
+    main .first-col,
+    main .second-col,
+    main {
+        width: 108%;
+    }
+
+    main .third-col,
+    main .fourth-col {
+        width: 97%;
+    }
+
+    main .gallery-two {
+        display: block;
+        padding-top: 15px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        top: 350px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    footer #policy p {
+        color: #ffffff;
+    }
+
+    footer #bottom p {
+        text-align: center;
+    }
+}

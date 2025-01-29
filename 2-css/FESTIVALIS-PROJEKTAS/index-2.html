@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Festivalis ABC</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="hover-effect">Pagrindinis</a></li>
+                    <li><a href="#performers" class="hover-effect">Atlikėjai</a></li>
+                    <li><a href="#gallery" class="hover-effect">Galerija</a></li>
+                    <li><a href="#tickets" class="hover-effect">Bilietai</a></li>
+                    <li><a href="#contact" class="hover-effect">Susisiekti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <section id="home" class="hero">
+        <h2>Festivalis ABC</h2>
+        <p>Šiais metais Festivalis ABC vyks Trakuose.</p>
+        <button>Pirkti bilietą</button>
+        <button>Žiūrėti atlikėjus</button>
+    </section>
+    
+    <section id="performers">
+        <h2>Atlikėjai</h2>
+        <div class="performer-cards">
+            <!-- Add individual performer cards here -->
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <h2>Galerija</h2>
+        <div class="gallery-grid">
+            <!-- Add individual gallery images here -->
+        </div>
+    </section>
+    
+    <section id="tickets">
+        <h2>Bilietai</h2>
+        <div class="ticket-options">
+            <!-- Add ticket options here -->
+        </div>
+    </section>
+    
+    <section id="map">
+        <h2>Kaip Rasti?</h2>
+        <div class="map-container">
+            <!-- Add map embed here -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Susisiekti</h2>
+        <form>
+            <label for="name">Vardas</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Telefonas</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="email">El. paštas</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">Siųsti</button>
+        </form>
+    </section>
+    
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" id="backToTop" title="Go to top">^</button>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Festivalis ABC. Visos teisės saugomos, 2023</p>
+    </footer>
+    
+    <script>
+        // Scroll to top functionality
+        var mybutton = document.getElementById("backToTop");
+    
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

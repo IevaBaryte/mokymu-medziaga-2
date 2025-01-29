@@ -1,0 +1,417 @@
+#page-container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .page-block {
+    height: 100vh;
+}
+
+.navigation-bar h1 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover {
+    color: #EB5757;
+}
+
+.nav-top {
+    border-radius: 20px;
+    border: 1px solid black;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+
+}
+
+.nav-top a {
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+#festivalis {
+    background-image: url('../img/layout/background.svg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50vh;
+}
+
+#festivalis h2 {
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+#festivalis p {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 54.47px;
+    color: #ffffff;
+}
+
+#festivalis button {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #EB5757;
+    background-color: #ffffff;
+    margin: 3px;
+    border: none;
+    padding: 10px 30px;
+}
+
+#festivalis button:hover {
+    background-color: #EB5757;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+}
+
+#po-header {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    background-color: #EB5757;
+    color: #ffffff;
+    height: 15vh;
+    padding: 15px;
+}
+
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#atlikejai h2 {
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+}
+
+#atlikejai {
+    text-align: center;
+    height: auto;
+}
+
+#atlikejai p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.atlikeju-galerija {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#atlikejas {
+    text-align: center;
+    size: 15px;
+    margin: 20px;
+}
+
+
+#atlikejas h3 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#atlikejas p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    margin: 16px;
+}
+
+.bilietas button {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #EB5757;
+    margin: 3px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.bilietas button:hover {
+    background-color: #ffffff;
+    color: #EB5757;
+    border: none;
+    padding: 10px 30px;
+}
+
+#galerija {
+    text-align: center;
+    background-color: #EB57571A;
+    height: auto;
+}
+
+#galerija h2 {
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #222222;
+}
+
+#galerija p {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 54.47px;
+    color: #222222;
+}
+
+.bilietai-isdestymas {
+    display: flex;
+    justify-content: space-between;
+}
+#bilietai {
+    text-align: center;
+    height: auto;
+}
+
+#bilietai h2 {
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #222222;
+}
+
+#bilietai p {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 54.47px;
+    color: #222222;
+}
+
+.bilietas {
+    height: auto;
+}
+
+.bilietas h2 {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.bilietas p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+}
+
+.bilietas h3 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+
+}
+
+#kur-rasti {
+    height: auto;
+    background-color: #EB57571A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#kur-rasti h2 {
+font-family: 'Raleway';
+font-size: 50px;
+font-weight: 700;
+line-height: 58.7px;
+letter-spacing: 2px;
+}
+#kur-rasti p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+}
+
+#kontaktai {
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+footer ul li a:hover {
+    color: #EB5757;
+}
+
+.navigation-bar {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+}
+
+#bilietai {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bilietas h2 { 
+font-family: 'Raleway';
+font-size: 22px;
+font-weight: 700;
+line-height: 25.83px;
+letter-spacing: 2px;
+}
+.bilietas p {
+font-family: 'Open Sans';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+
+}
+.kaina  {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 2px;
+    color: #EB5757;
+}
+#kur-rasti {
+    text-align: center;
+    height: auto;
+}
+#kontaktai {
+    text-align: center;
+    height: auto;
+}
+form {
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+}
+#kontaktai form button {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #EB5757;
+    margin: 3px;
+    border: none;
+    padding: 10px 30px;
+}
+#kontaktai button:hover {
+    background-color: #ffffff;
+    color: #EB5757;
+    border: none;
+    padding: 10px 30px;
+}
+.kontaktai-2 h2 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    letter-spacing: 2px;
+}
+.kontaktai-2 a {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;    
+}
+.kontaktai-2 label {
+    text-align: left;
+}
+.kontaktai-2 {
+    padding: 20px;
+}
+.linija {
+    width: 407px;
+    height: 2px;
+background-color: #222222;
+}
+.bilietai-list {
+    display: flex;
+    justify-content: center;
+}

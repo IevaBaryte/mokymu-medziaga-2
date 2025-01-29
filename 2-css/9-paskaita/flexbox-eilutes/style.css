@@ -1,0 +1,37 @@
+.eile-1, .eile-2, .eile-3, .eile-4, .eile-5 {
+    display: flex;
+    padding: 10px;
+}
+
+p {
+    width: 25%;
+    background-color: #ffffff;
+}
+.eile-1 {
+background-color: #ffa500;
+
+}
+.eile-1 {
+    justify-content: start;
+    height: 300px;
+}
+.eile-2 {
+background-color: #8fbc8f;
+justify-content: flex-end;
+}
+
+.eile-3 {
+background-color: #ff8c00;
+justify-content: first baseline;
+align-items: center;
+}
+.eile-4 {
+background-color: #00ced1;
+align-items: center;
+justify-content: center;
+}
+.eile-5 {
+background-color: #dc143c;
+align-items: end;
+justify-content: end;
+}

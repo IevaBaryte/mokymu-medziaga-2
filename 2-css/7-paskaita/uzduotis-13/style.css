@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+div {
+    background: white;
+}
+div span {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}

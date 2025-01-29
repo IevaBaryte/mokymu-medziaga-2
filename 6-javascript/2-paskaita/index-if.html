@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque;">
+    Mano pirmas JavaScript darbas
+    <!-- inline -->
+     <button onclick="console.log('labas')">Click me</button>
+    <script>
+        // for (kintamasis; salyga; operacija) {
+        //  //kodas
+        // }
+        // i = i + 1 arba i += 1 arba i++
+
+        for (let i = 1; i <= 5; i++) {
+            console.log('Ciklas veikia');
+            console.log(i);
+        }
+
+        for (let i = 1; i <= 5; i++) {
+            console.log('eilutes numeris: ', i);
+        }
+
+        for (let i = 20; i <= 100; i++) {
+            if (i % 2 === 0) {
+            console.log('skaicius ' + i + ' yra lyginis');
+        }
+    }
+    for (let i = 2; i <= 10; i+=2) {
+        console.log (i);
+    }
+        for (let i = 1; i <= 10; i++) {
+            if (i % 2 === 0 || i % 5 === 0) {
+                console.log('skaicius ' + i + ' dalinasi is 2 arba 5')
+            }
+        }
+
+        let n = 50;
+
+        for (let i = 1; i <= n; i++) {
+            if (i % 2 === 0 || i % 5 === 0) {
+                console.log('skaicius ' + i + ' dalinasi is 2 arba 5')
+            }
+        }
+
+        for (let i = 1; i <= 3; i++) {
+            console.log('----------');
+            console.log ('pirmo ciklo pradzia');
+            console.log (i)
+
+            for (let j = 1; j <= 5; j++) {
+                console.log('antro ciklo pradzia');
+                console.log(j);
+                console.log('antro ciklo pabaiga');
+
+            }
+            console.log ('pirmo ciklo pabaiga');
+            console.log('----------');
+
+        }
+
+        for (let i = 1; i <= 10; i ++) {
+            console.log(i);
+            if (i === 7) {
+                break;
+            }
+        }
+
+        // let a = 1, b = 2, c = 3;
+
+        // if (a === b) {
+        //     console.log('pirmas ir antras skaiciai yra lygus');
+        // }
+        // if (b === c) {
+        //     console.log('antras ir trecias skaiciai yra lygus');
+        // }
+        // if (a > b) {
+        //     console.log('pirmas skaicius yra didesnis');
+        // }
+        // if (b > c * 2) {
+        //     console.log('antras skaicius yra didesnis uz treciojo skaiciaus dviguba reiksme');
+        // }
+        // if (a % 2 == 0) {
+        //     console.log('pirmas skaicius yra lyginis');
+        // }
+        // if (b % 2 !== 0) {
+        //     console.log('ar antras skaicius yra nelyginis');
+        // }
+        // if (c > 0) {
+        //     console.log('ar trecias skaicius yra teigiamas');
+        // }
+        // if (a < 0){
+        //     console.log('ar pirmas skaicius yra vneigiamas');
+        // }
+        // if (b % 4 === 0) {
+        //     console.log('ar antras skaicius dalinasi is 4 be liekanos');
+        // }
+        // if (c % 8 === 0) {
+        //     console.log('ar trecias skaicius dalinasi is 8 be liekanos');
+        // }
+
+        // let a = 8, b = 5, c = 9, d = 10, e = 10, f = 4, g = 6; 
+    //  if ((a + b + c + d + e + f + g) / 7 >= 5 ) {
+            // console.log('vidurkis teigiamas');}
+        // else { console.log('vidurkis neigiamas');}
+
+        // let h = 20;
+
+        // if (a % 5 === 0) {
+        //     console.log(a * 1);
+        //     console.log(a * 2);
+        //     console.log(a * 3);
+        //     console.log(a * 4);
+        //     console.log(a * 5);
+        // }
+        // else if ( a % 2 === 0) {
+        //     let i = 35;
+        //     console.log(h + i);
+        //     console.log(h - i);
+        //     console.log(h * i);
+        //     console.log(h / i);
+        // }
+
+    </script>
+</body>
+</html>

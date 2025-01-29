@@ -1,0 +1,125 @@
+@media screen and (min-width:769px) and (max-width:991px) {
+    header {
+        max-width: 800px;
+    }
+
+    header .header-first-block {
+        top: 850px;
+        height: 900px;
+    }
+
+    header .header-first-block h1 {
+        top: 650px;
+        text-align: center;
+        width: 750px;
+        left: unset;
+    }
+
+    header .header-first-block p {
+        top: 605px;
+        text-align: center;
+        width: 750px;
+        left: unset;
+    }
+
+    header .header-first-block button {
+        top: 610px;
+        left: 320px;
+    }
+
+    header .header-first-block .header-image {
+        left: 0px;
+        top: -200px;
+    }
+
+    header .progres-line .normal-line,
+    header .progres-line .bold-line {
+        left: 150px;
+        top: 370px;
+    }
+
+    header .header-first-block .progres-line .text-next-to-line p {
+        left: 200px;
+        top: 357px;
+    }
+
+    /*PRODUCTS FIRST */
+
+    .products-first h1 {
+        left: 150px;
+    }
+
+    .products-first .view-products-first {
+        top: 1560px;
+        width: 680px;
+        left: 80px;
+    }
+
+    .products-first .view-products-first h2 {
+        text-align: center;
+        width: 600px;
+    }
+
+    .products-first .view-products-first p {
+        text-align: center;
+    }
+
+    .products-first .view-products-first button {
+        left: 235px;
+        position: relative;
+        top: -20px;
+    }
+
+    .products-first .view-image-first img {
+        left: 80px;
+        top: 1115px;
+    }
+
+    section .view-image-second img {
+        top: 700px;
+    }
+
+    section .view-products-second {
+        left: 80px;
+        top: 720px;
+    }
+
+    section .view-products-second h2,
+    section .view-products-second p {
+        width: 600px;
+        text-align: center;
+    }
+
+    section .view-products-second button {
+        margin-left: 235px;
+        margin-top: -25px;
+    }
+
+    /* MAIN */
+
+    main h1 {
+        margin-top: 250px;
+        width: 600px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    main .gallery {
+        padding: 0px 10px 0px 10px;
+        gap: 10px;
+    }
+
+    main .gallery-two {
+        padding: 20px 10px 0px 10px;
+        gap: 10px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        top: 1550px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}

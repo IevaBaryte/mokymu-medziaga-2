@@ -1,0 +1,11 @@
+li {
+    display: inline;
+}
+label, input {
+    display: inline;
+}
+form {
+    background-color: bisque;
+    width: 500px;
+    padding: 1em;
+}

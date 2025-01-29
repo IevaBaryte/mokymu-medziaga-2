@@ -1,0 +1,38 @@
+
+header, footer {
+    height: 2cm;
+    background-color: black;
+    text-decoration: #ffffff;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.article {
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    height: 15cm;
+    position: relative;
+}
+h2 {
+margin-top: 10px;
+margin-left: 900px;
+}
+/*#black-box {
+    margin-top: 10px;
+margin-left: 900px;
+background-color: #000000;
+padding: 100px 40px 100px 40px;
+}*/
+.p1 {
+    color: #ffffff;
+    text-align: center;
+    margin-left: 475px;
+    margin-right: 475px;
+}
+.p2 {
+    margin-top: 18px;
+margin-left: 900px;
+font-size: medium;
+text-decoration: #ffffff;
+}

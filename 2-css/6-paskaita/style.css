@@ -1,0 +1,83 @@
+body {
+    font-family: nokora;
+}
+.pirma-kortele {
+    width: 329px;
+    height: 477px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 13px 0px #18181B33;
+    display: block;
+    border-radius: 30px;
+    font-family: Nokora;
+
+}
+
+.antra-kortele {
+    width: 329px;
+    height: 477px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 13px 0px #18181B33;
+    display: block;
+    border-radius: 30px;
+    font-family: nokora;
+}
+
+.trecia-kortele {
+    width: 329px;
+    height: 477px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 13px 0px #18181B33;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: nokora;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+
+}
+.lape {
+    width: 329px;
+    height: 214px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#rikiavimas {
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+border-left: 15px;
+
+
+}
+
+div:hover {
+    box-shadow: 0px 0px 30px #000;
+    transition-duration: 500ms;
+    
+}
+button {
+    width: 127px;
+    height: 32px;
+    padding: 8px 16px 8px 16px;
+    border: 2px solid blue;
+    font-family: Inter;
+    font-size: 12px;
+    touch-action: inherit;
+
+}
+button:hover {
+    transition: 2s;
+    background-color: rgb(239, 39, 205);
+}
+p {
+    border-left: 15px;
+
+}

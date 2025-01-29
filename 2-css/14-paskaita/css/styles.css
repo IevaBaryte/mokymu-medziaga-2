@@ -1,0 +1,192 @@
+body .kambarines-geles {
+    font-family: 'Poppins';
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 108px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.korteles {
+    width: 377px;
+    height: 680px;
+    display: contents;
+    gap: 10px;
+}
+
+.korteles h2 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 10px;
+}
+
+.korteles p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 10px;
+}
+
+.vazonas p {
+    color: #7D9458;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.vazonas {
+    padding-left: 10px;
+}
+
+.dot-1 {
+    height: 25px;
+    width: 25px;
+    background-color: #C38364;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-2 {
+    height: 25px;
+    width: 25px;
+    background-color: #EFEAE6;
+    ;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-3 {
+    height: 25px;
+    width: 25px;
+    background-color: #F3A195;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-4 {
+    height: 25px;
+    width: 25px;
+    background-color: #39362E;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    height: 41px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #ffffff;
+    color: #7D9458;
+    border: 1px solid #7D9458;
+    text-align: center;
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #7D9458;
+}
+
+.kortele-1 {
+    width: 376px;
+    height: 0 auto;
+    border: 2px solid #7D9458;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.kortele-2 {
+    width: 376px;
+    height: 0 auto;
+    border: 2px solid #7D9458;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.kortele-3 {
+    width: 376px;
+    height: 0 auto;
+    border: 2px solid #7D9458;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.kortele-4 {
+    width: 376px;
+    height: 0 auto;
+    border: 2px solid #7D9458;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.burbuliukai {
+    width: 40%;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.dot-1:hover {
+    border: 2px solid #39362E;
+}
+
+.dot-2:hover {
+    border: 2px solid #39362E;
+}
+
+.dot-3:hover {
+    border: 2px solid #39362E;
+}
+
+.dot-4:hover {
+    border: 2px solid #39362E;
+}
+
+@media only screen and (max-width:768px) and (min-width:376px) {
+    button {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .vazonas {
+        text-align: center;
+    }
+    .burbuliukai {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    button {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .vazonas {
+        text-align: center;
+    }
+    .burbuliukai {
+        text-align: center;
+    }
+
+}

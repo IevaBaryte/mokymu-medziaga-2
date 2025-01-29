@@ -1,0 +1,118 @@
+#flex-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    height: 1873px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.logo {
+    background-image: url(logo/logo.svg);
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    background-color: #e12e60;
+    width: 200px;
+    border-radius: 5px solid #e12e60;
+
+}
+
+.header {
+    background-image: url(images/header.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 480px;
+}
+
+.navigacija-2 {
+    display: flex;
+    justify-content: end;
+    align-items: right;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: Montserrat;
+    list-style: none;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+.navigacija-1 a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .heading h1 {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.95px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+header .heading {
+    width: 400px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 50px 50px;
+}
+.three {
+    background-color: #ef5d68;
+    padding: 25px;
+    display: flex;
+}
+.three-columns {
+    background-color: #ef5d68;
+    padding: 25px;
+    display: flex;
+}
+.three-columns p {
+    background-color: #fcdfe1;
+    border-radius: 8px 8px 8px 8px;
+    height: 200px;
+    padding: 60px 40px 60px 40px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.27px;
+    text-align: left;
+}
+.text-box {
+    background-color: #FCDFE1;
+    padding: 25px;
+    display: flex;
+
+}
+
+.text-box p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    width: 40%;
+    margin: 30px 50px;
+}
+.image-box {
+width: 60%;
+
+}
+footer {
+    background-color: #000;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}

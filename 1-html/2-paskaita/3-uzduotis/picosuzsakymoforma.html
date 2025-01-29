@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picos užsakymo forma</title>
+</head>
+<body>
+    <h1>Pizza Delivery</h1>
+    <h3>Online Order Form</h3>
+
+    <form>
+    <table>
+        <tr>
+            <td>* Name:</td>
+            <td><input type="text" id="NameInput"></td>
+            <td>*Tel.:</td>
+            <td><input type="text" id="numberInput"></td>
+        </tr>
+        <tr>
+            <td>*Address:</td>
+            <td><input type="text" id="AddressInput"></td>
+            <td>*Email:</td>
+            <td><input type="text" id="Emailinput"></td>
+        </tr>
+        <tr>
+            <td>*Town/city:</td>
+            <td><input type="text" id="Cityinput"></td>
+        </tr>
+        <tr>
+            <td>*Postcode:</td>
+            <td><input type="text" id="Postcode"></td>
+        </tr>
+        <tr>
+            <td>*required fields</td>
+        </tr>
+        <tr>
+            <td>Topping</td>
+            <td>Size</td>
+            <td>Extras</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="Topping" value="Margherita">Margherita</td>
+            <td><input type="radio" name="Size" value="Small">Small</td>
+            <td><input type="checkbox" name="Extras" value="Mushrooms">Mushrooms</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="Topping" value="Margherita">Four Seasons</td>
+            <td><input type="radio" name="Size" value="Small">Medium</td>
+            <td><input type="checkbox" name="Extras" value="Mushrooms">Green peppers</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="Topping" value="Margherita">Meat Feast</td>
+            <td><input type="radio" name="Size" value="Small">Large</td>
+            <td><input type="checkbox" name="Extras" value="Mushrooms">Anchovies</td>
+        </tr>
+        <tr>   
+            <td></td>
+            <td></td>        
+            <td><input type="checkbox" name="Extras" value="Mushrooms">Extra cheese</td>
+        </tr>
+<tr>
+    <td></td>
+
+</tr>
+        <tr>
+            <td>Preffered delivery day</td>
+            <td><input type="date" id="birthday" name="pristatymas"></td>
+            <tr>
+                <td>Preddered delivery time</td>
+                <td><input type="time" id="time" name="time"></td>
+            </tr>
+    <tr>
+        <td>Delivery instuctions:</td>
+        <td><textarea cols="30" rows="3"></textarea><br></td>
+    </tr>
+    <tr>
+        <td><input type="Submit" value="Submit order"></td>
+    </tr>
+    </table>
+</form>
+</body>
+</html>

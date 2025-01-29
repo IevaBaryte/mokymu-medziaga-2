@@ -1,0 +1,18 @@
+.antraste {
+    color: #ffffff    ;
+    background-color: #005775;
+    padding: 10px;
+    text-align: left;
+}
+.page-container1 {
+    background-image: url(fonas1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-container2 {
+    background-image: url(fonas2.jpg);
+
+}
+.page-container3 {
+    background-image: url(fonas3.jpg);
+}
