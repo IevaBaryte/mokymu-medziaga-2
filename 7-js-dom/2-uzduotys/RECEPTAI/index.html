@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="block-container">
+    <h1>Pasirinkite receptą:</h1>
+    <div class="korteles">
+        <div class="kortele" onclick="onKortelesPaspaudimas(1)">
+            <img src="IMG/vistiena.svg" alt="vistiena">
+            <div class="text">
+            <h2>Vištiena su salotom</h2>
+            <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+        </div>
+        <img src="IMG/varnele.svg" class="active">
+        </div>
+        <div class="kortele" onclick="onKortelesPaspaudimas(2)">
+            <img src="IMG/tortas.svg" alt=tortas">
+            <div class="text">
+            <h2>Tortas su mėlynėm</h2>
+            <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+        </div>
+        <img src="IMG/varnele.svg" class="active">
+        </div>
+        <div class="kortele">
+            <div class="kortele" onclick="onKortelesPaspaudimas(3)">
+            <img src="IMG/makaronai.svg" alt="makaronai">
+            <div class="text">
+            <h2>Makaronai su mėsa</h2>
+            <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+        </div>
+        <img id="recepto-statusas" src="IMG/varnele.svg" class="hide">
+        </div>
+
+    </div>
+</div>
+</div>
+
+    <div class="block-container porcijos">
+        <h2>Kiek porcijų gaminsite?</h2>
+        <p>1</p>
+        <input type="range" min="1" max="10" value="1">
+    </div>
+
+    <div class="block-container ingridientai">
+        <h2>Jums reikės šių ingridientų:</h2>
+        <div id="rezultatai">
+        <p>Miltų: <span>500 g</span></p>
+        <p>Kiaušinių: <span>2 vnt</span></p>
+        <p>Mėlynių: <span>100 vnt</span></p>
+        <p>Cukraus: <span>2 šaukštelių</span></p>
+    </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
