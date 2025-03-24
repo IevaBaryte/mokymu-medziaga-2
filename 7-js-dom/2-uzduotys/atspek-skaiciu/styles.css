@@ -1,0 +1,74 @@
+body {
+    background-image: url(img/background.png);
+    background: #2D1C5D;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+    color: #FFFFFF;
+}
+
+.spejimoLaukas {
+    top: 353px;
+    left: 860px;
+    gap: 24px;
+    display: inline;
+}
+
+#skaiciaiBg img {
+    width: 15%;
+    left: 450px;
+    top: 50px;
+}
+
+.neteisingasSpejimasDidesni { 
+    background: #AA020254;
+    width: 400px;
+    height: 150px;
+    gap: 20px;
+    opacity: 0px;
+
+}
+/* .neteisingasSpejimasDidesni h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+}
+
+.neteisingasSpejimasMazesni h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.neteisingasSpejimasDidesni p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: left;
+}
+
+.neteisingasSpejimasMazesni p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+} */
+
+.neteisingasSpejimasDidesni span {
+    background: #D31E3E;
+}
+.neteisingasSpejimasMazesni span {
+    background: #D31E3E;
+}
+.neteisingasSpejimasDidesni img {
+    width: 146px;
+    height: 148px;
+}
+
+.neteisingasSpejimasMazesni img{
+    width: 146px;
+    height: 148px;
+}
+
+ 
