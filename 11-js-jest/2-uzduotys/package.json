@@ -1,0 +1,17 @@
+{
+  "name": "2-uzduotys",
+  "version": "1.0.0",
+  "description": "sprendimai",
+  "main": "sprendimai.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "sprendimai"
+  ],
+  "author": "Ieva",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

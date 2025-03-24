@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(234, 234, 234) !important;
+}
+.container{
+    margin-top: 50px;
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 60px 0 60px 0;
+}
+.cards-list {
+    gap: 5px;
+    justify-content: center;
+}
+
+.card-text img { 
+    width: 25vh;
+    height: 25vh;
+
+}
+
+#collapseWidthExample div.collapse-bg-color {
+    background-color: rgb(234, 234, 234);
+}
