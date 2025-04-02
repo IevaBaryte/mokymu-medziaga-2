@@ -5,8 +5,8 @@ const Diena = (props) => {
             return 'Valioooo, kepures nereikia'
         } else {
             return 'Lauke salta.. Dekis kepure..'
-        }
-    }
+        } 
+    }                                                               
 
     return (
         <div>
@@ -16,4 +16,4 @@ const Diena = (props) => {
     )
 };
 
-export default Diena;
+export default Diena; 
