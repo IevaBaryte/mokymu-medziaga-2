@@ -23,7 +23,7 @@ const TrysKepyklos = () => {
         const skirtumas = pajegumas - uzsakymai;
         console.log(pajegumas);
             if (skirtumas >= 0) {
-                return 'Kepyklos įvykdys užsakymus.';
+                return `Kepyklos įvykdys užsakymus. Jums liks ${skirtumas} kepalu.`;
             } else {
                 return `Kepykloms nepavyks įvykdyti užsakymų. Trūks ${Math.abs(skirtumas)} kepalų.`;
             }
