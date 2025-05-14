@@ -1,0 +1,8 @@
+#navbarNav {
+display: flex;
+justify-content: end;
+}
+
+.navbar {
+    max-width: unset;
+}
